@@ -2,7 +2,10 @@
 
 
 /* Header CSS */
-
+.navbar_header{
+    background-color:lightBlue;
+    font-size:30px;
+}
 
 
 /* Section CSS */
