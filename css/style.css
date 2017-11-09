@@ -1,27 +1,68 @@
 /* Nav Bar CSS */
-
-
-/* Header CSS */
-.navbar_header{
-    background-color:lightBlue;
-    font-size:30px;
+.nav{
+    
 }
 
+/* Header CSS */
+#header{
+    background-color:orange;
+    font-size:30px;
+    padding-top:100px;
+}
+
+.img-rounded{
+    padding-left:35px;
+}
+
+#picSean{
+    text-align:center;
+}
+
+#professions{
+    text-align:center;
+    padding-bottom:50px;
+}
 
 /* Section CSS */
-
+#projectsTitle{
+    font-size:50px;
+    padding-top:50px;
+}
 
 
 /* About Section CSS */
 
+#aboutContainer{
+    background-color:lightGreen;
+}
+
+#aboutTitle{
+    font-size:50px;
+    padding-top:50px;
+}
+
+#aboutBio{
+    font-size: 20px;
+}
 
 
 /* Portfolio Item CSS */
+#topProjectRow{
+    padding-top: 50px;
+}
 
-
+#calculatorPic{
+    padding-left: 50px;
+}
 
 /* Footer CSS */
+#contactContainer{
+    background-color:red;
+}
 
+#contactTitle{
+    font-size: 50px;
+}
 
 
 /* Button CSS */

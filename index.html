@@ -27,28 +27,76 @@
 
 <body>
     <!-- Nav Bar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-      <ul class="nav nav-tabs">
-          <a href="#">About</a></li>
-        <a class="navbar-brand" href="#">WebSiteName</a>
-        <ul class="nav navbar-nav">
-        </ul>
-
-  </nav>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+       <div class="navbar">
+        <div class="navbar_header">
+            <a id="name" class="navbar-brand">Sean Blackman</a>
+        </div> 
+       <ul class="nav navbar-nav">
+           <ul class="nav nav-tabs">
+            <li class="page-scroll"><a href="#projectContainer">Projects</a></li>
+            <li class="page-scroll"><a href="#aboutContainer">About</a></li>
+            <li class="page-scroll"><a href="#contactContainer">Contact</a></li>
+           </ul> 
+       </ul>
+       </div>
+     </div>
+   </nav>
     
     <!-- Header -->
-    <div class="row">
-        <div class="col-md-12">Sean Blackman</div>
+    <div class="container-fluid" id="header">    
+        <div class="row">
+            <div class="col-md-4 text-center"></div>
+             <img class="img-rounded" src="https://cdn.discordapp.com/attachments/376800928516538368/376932203830968321/unknown.png">
+        </div>   
+        <h1 class="name" id="picSean">Sean</h1>
+        <hr class="star-light">
+        <div id="professions">Student - Programmer</div>
+          
     </div>
 
     <!-- Portfolio Grid Section -->
-    
+    <div class="container-fluid" id="projectContainer">
+        <hr class="star-light">
+        <div class="row">
+            <div class="col-md-12 text-center" id ="projectsTitle">Projects</div>
+        </div>
+        <div class="row" id="topProjectRow">
+            <div class="col-md-4">
+                <h3 class="text-center">Calculator</h3>
+                <a class="thumbnail" href="https://github.com/seanblackman117/calculatorStarterCode">    
+                    <img src="images/calculator.png">
+               </a>
+        </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Universal Travels</h3>
+                <a class="thumbnail" href="https://github.com//SalocinS/ScriptEd-April-2017">
+                    <img src="images/universaltravels.png">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">The Fund for American Health</h3>     
+                <a class="thumbnail" href="https://github.com/ItsChrisYoung/mockupclient-">
+                    <img src="images/FAH.png">
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!-- About Section -->
-   
+   <div class="container-fluid" id="aboutContainer">
+       <h3 class="col-md-12 text-center" id="aboutTitle">About</h3>
+       <hr class="star-light">
+       <p id="aboutBio">Sean is currently a 10th grader at Uncommon Charter High School and is also enrolled in the advanced class in the ScriptEd foundation, learning how to create websites with fundamental programming languages like HTML, CSS, jQuery, and more. When he's not studying, he's sleeping or playing video games.
+       </p>
+   </div>
 
     <!-- Contact Section -->
-
+    <div class="container-fluid" id="contactContainer">
+        <h3 class="col-md-12 text-center" id="contactTitle">Contact</h3>
+        
+    </div>
 
     <!-- Footer -->
 
